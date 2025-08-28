@@ -1,4 +1,10 @@
-
+body {
+  background-color:#f2b32f;
+  color:#684823;
+}
+      
+      
+      
       /* When I put this stuff in the css sheet it breaks */
 body, html {
   height: 100%;
@@ -9,8 +15,9 @@ body, html {
 .hero-image {
   /* do I want this darkened? */
   /* this is from: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_hero_image */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/pexels-photo-30711625.jpeg");
-  height: 50%;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/pexels-photo-30711625.jpeg"); */
+  background-image: url("../images/pexels-photo-30711625.jpeg");
+  height: 66%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,11 +26,11 @@ body, html {
 
 .hero-text {
   text-align: center;
+  color:white;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
 }
 
 .hero-text button {
