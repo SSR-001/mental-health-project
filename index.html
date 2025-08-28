@@ -10,7 +10,7 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
     <!--
     <style>
       /* When I put this stuff in the css sheet it breaks */
@@ -78,16 +78,19 @@ body, html {
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#what-is-mental-health">What is Mental Health?</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#common-signs">Common Signs of Mental Ill-Health</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#about-stress">About Stress</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              <a class="nav-link" href="#having-issues">Having Issues?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#further-info-and-support">Further Info & Support</a>
             </li>
           </ul>
         </div>
@@ -96,19 +99,29 @@ body, html {
 
     <!-- hero pasted from w3 -->
 
+    <!-- <div class="hero-image">
+      <div class="hero-text">
+        <h1 style="font-size: 100px">This too shall pass</h1>
+        <p>(make this a calming blue colour)</p>
+      </div>
+    </div> -->
 
+        <div
+  class="px-4 py-5 my-5 text-center d-flex flex-column justify-content-center align-items-center"
+  style="
+    height:66vh;
+    background-image: url('assets/images/pexels-photo-30711625.jpeg');
+    background-size: 100% 100%;
+  "
+    >
+  <h1 class="display-5 fw-bold text-body-emphasis">This too shall pass</h1>
 
-<div class="hero-image">
-  <div class="hero-text">
-    <h1 style="font-size:100px;">This too shall pass</h1>
-    <p>(make this a calming blue colour)</p>
-  </div>
 </div>
 
-<!-- <div style="font-size:50px; text-align:center;">text text text text text text text text text text text text text text text </div> -->
+    <!-- <div style="font-size:50px; text-align:center;">text text text text text text text text text text text text text text text </div> -->
 
-<!-- Messing with the grid system, columns, rows -->
-<!-- <div class="container">
+    <!-- Messing with the grid system, columns, rows -->
+    <!-- <div class="container">
   <div class="row">
     <div class="column" style="background-color:gray;"></div>
     <div class="column" style="background-color:gray;"></div>
@@ -118,22 +131,53 @@ body, html {
   </div>
 </div> -->
 
+    <section class="container section">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 id="#what-is-mental-health">What is Mental Health?</h2>
+          <p>
+          Mental health refers to our emotional, psychological, and social
+          well-being. It affects how we think, feel, and act, and helps
+          determine how we handle stress, relate to others, and make choices.
+          Taking care of your mental health is just as important as caring for
+          your physical health.
+          </p>
+        </div>
+      </div>
+    </section>
+    <br />
 
+    <!-- Do a grid for this one. Does the whole page need to be a grid? I don't think so. -->
+    <!-- a grid of 3 rows by 3 columns -->
+    <section id="#common-signs">
+      <div class="container text-center">
+        <h2>Common Signs of Mental Ill Health?</h2>
+        <div class="row">
+          <div class="card col-sm">Feeling sad or down for long periods</div>
+          <div class="card col-sm">
+            Confused thinking or reduced ability to concentrate
+          </div>
+          <div class="card col-sm">
+            Excessive fears, worries, or extreme mood changes
+          </div>
+        </div>
+        <div class="row">
+          <div class="card col-sm">Withdrawal from friends and activities</div>
+          <div class="card col-sm">
+            Significant tiredness, low energy, or problems sleeping
+          </div>
+          <div class="card col-sm">Changes in eating habits or weight</div>
+        </div>
+        <div class="row">
+          <div class="card col-sm">
+            Difficulty coping with daily problems or stress
+          </div>
+          <div class="card col-sm">Unexplained physical ailments</div>
+          <div class="card col-sm">Thoughts of self-harm or suicide</div>
+        </div>
+      </div>
 
-
-<section>
-  <div>
-    <h2>What is Mental Health?</h2>
-    <p>
-      Mental health refers to our emotional, psychological, and social well-being. It affects how we think, feel, and act, and helps determine how we handle stress, relate to others, and make choices. Taking care of your mental health is just as important as caring for your physical health.
-    </p>
-  </div>
-</section>
-<br>
-
-<!-- Do a grid for this one. Does the whole page need to be a grid? I don't think so. -->
- <!-- a grid of 3 rows by 3 columns -->
-<section>
+      <!-- Old version of this section I don't want to delete yet, pre-cards
   <div>
     <h2>What Are Some Signs of Mental Ill Health?</h2>
     <ul>
@@ -151,81 +195,256 @@ body, html {
       If you notice these signs in yourself or someone else, consider reaching out for support. Early help can make a big difference.
     </p>
   </div>
-  </section>
-  <br>
+    --></section>
+    <br />
 
-<section>
-  <div>
-    <h2>About Stress</h2>
-    <p>
-      Stress is a natural response to challenging or demanding situations. It can motivate us to take action, but too much stress can negatively impact our mental and physical health. Common sources of stress include work, school, relationships, and major life changes.
-    </p>
-    <ul>
-      <li>Short-term stress can help you focus and perform under pressure.</li>
-      <li>Long-term or chronic stress can lead to anxiety, depression, and other health problems.</li>
-      <li>Recognizing your stress triggers and learning healthy coping strategies is important.</li>
-    </ul>
-    <p>
-      If stress feels overwhelming, consider talking to someone you trust or seeking professional support.
-    </p>
-  </div>
-</section>
-<br>
+        <!-- <section class="container section">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>About Stress</h2>
+          <p>
+          Stress is a natural response to challenging or demanding situations.
+          It can motivate us to take action, but too much stress can negatively
+          impact our mental and physical health. Common sources of stress
+          include work, school, relationships, and major life changes.
+        </p>
+        <ul>
+          <li>
+            Short-term stress can help you focus and perform under pressure.
+          </li>
+          <li>
+            Long-term or chronic stress can lead to anxiety, depression, and
+            other health problems.
+          </li>
+          <li>
+            Recognizing your stress triggers and learning healthy coping
+            strategies is important.
+          </li>
+        </ul>
+        <p>
+          If stress feels overwhelming, consider talking to someone you trust or
+          seeking professional support.
+        </p>
+        </div>
+      </div>
+    </section> -->
 
-<section>
-  <div>
-    <h2>What to Do If You Think You're Having Issues</h2>
-    <p>
-      If you feel like you may be experiencing mental health challenges, remember that you are not alone and help is available. Here are some steps you can take:
-    </p>
-    <ul>
-      <li>Talk to someone you trust, such as a friend, family member, or teacher.</li>
-      <li>Reach out to a healthcare professional for advice and support.</li>
-      <li>Consider contacting a mental health helpline or support service.</li>
-      <li>Practice self-care by getting enough sleep, eating well, and staying active.</li>
-      <li>Try relaxation techniques like deep breathing, meditation, or gentle exercise.</li>
-    </ul>
-    <p>
-      Seeking help is a sign of strength. Early support can make a big difference in your well-being.
-    </p>
-  </div>
-</section>
-<br>
+        <section class="container section">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>About Stress</h2>
+          <p>
+          Stress is a natural response to challenging or demanding situations.
+          It can motivate us to take action, but too much stress can negatively
+          impact our mental and physical health. Common sources of stress
+          include work, school, relationships, and major life changes.
+        </p>
+        <ul>
+          <li>
+            Short-term stress can help you focus and perform under pressure.
+          </li>
+          <li>
+            Long-term or chronic stress can lead to anxiety, depression, and
+            other health problems.
+          </li>
+          <li>
+            Recognizing your stress triggers and learning healthy coping
+            strategies is important.
+          </li>
+        </ul>
+        <p>
+          If stress feels overwhelming, consider talking to someone you trust or
+          seeking professional support.
+        </p>
+        </div>
+      </div>
+    </section>
+    <br />
 
-<section>
-  <div>
-    <h3>Further Information & Support</h3>
-    <ul>
-      <li>
-        <a href="https://www.mind.org.uk/" target="_blank" rel="noopener">Mind (UK)</a> – Advice and support for anyone experiencing a mental health problem.
-      </li>
-      <li>
-        <a href="https://www.samaritans.org/" target="_blank" rel="noopener">Samaritans</a> – 24/7 support for anyone in distress.
-      </li>
-      <li>
-        <a href="https://www.nhs.uk/mental-health/" target="_blank" rel="noopener">NHS Mental Health</a> – Information and resources from the National Health Service.
-      </li>
-      <li>
-        <a href="https://www.youngminds.org.uk/" target="_blank" rel="noopener">YoungMinds</a> – Support for young people’s mental health.
-      </li>
-      <li>
-        <a href="https://www.mentalhealth.org.uk/" target="_blank" rel="noopener">Mental Health Foundation</a> – Research, advice, and resources.
-      </li>
-    </ul>
-  </div>
-</section>
-<br>
 
-<section>
-  <div>
-    <h1>ADD FOOTER</h1>
-  </div>
-</section>
+
+
+
+    <!-- <section>
+      <div>
+        <h2>What to Do If You Think You're Having Issues</h2>
+        <p>
+          If you feel like you may be experiencing mental health challenges,
+          remember that you are not alone and help is available. Here are some
+          steps you can take:
+        </p>
+        <ul>
+          <li>
+            Talk to someone you trust, such as a friend, family member, or
+            teacher.
+          </li>
+          <li>
+            Reach out to a healthcare professional for advice and support.
+          </li>
+          <li>
+            Consider contacting a mental health helpline or support service.
+          </li>
+          <li>
+            Practice self-care by getting enough sleep, eating well, and staying
+            active.
+          </li>
+          <li>
+            Try relaxation techniques like deep breathing, meditation, or gentle
+            exercise.
+          </li>
+        </ul>
+        <p>
+          Seeking help is a sign of strength. Early support can make a big
+          difference in your well-being.
+        </p>
+      </div>
+    </section> -->
+
+<section class="container section">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>What to Do If You Think You're Having Issues</h2>
+          <p>
+          If you feel like you may be experiencing mental health challenges,
+          remember that you are not alone and help is available. Here are some
+          steps you can take:
+        </p>
+        <ul>
+          <li>
+            Talk to someone you trust, such as a friend, family member, or
+            teacher.
+          </li>
+          <li>
+            Reach out to a healthcare professional for advice and support.
+          </li>
+          <li>
+            Consider contacting a mental health helpline or support service.
+          </li>
+          <li>
+            Practice self-care by getting enough sleep, eating well, and staying
+            active.
+          </li>
+          <li>
+            Try relaxation techniques like deep breathing, meditation, or gentle
+            exercise.
+          </li>
+        </ul>
+        <p>
+          Seeking help is a sign of strength. Early support can make a big
+          difference in your well-being.
+        </p>
+        </div>
+      </div>
+    </section>
+
+    <br />
+
+    <!-- <section>
+      <div>
+        <h3>Further Information & Support</h3>
+        <ul>
+          <li>
+            <a href="https://www.mind.org.uk/" target="_blank" rel="noopener"
+              >Mind (UK)</a
+            >
+            – Advice and support for anyone experiencing a mental health
+            problem.
+          </li>
+          <li>
+            <a href="https://www.samaritans.org/" target="_blank" rel="noopener"
+              >Samaritans</a
+            >
+            – 24/7 support for anyone in distress.
+          </li>
+          <li>
+            <a
+              href="https://www.nhs.uk/mental-health/"
+              target="_blank"
+              rel="noopener"
+              >NHS Mental Health</a
+            >
+            – Information and resources from the National Health Service.
+          </li>
+          <li>
+            <a
+              href="https://www.youngminds.org.uk/"
+              target="_blank"
+              rel="noopener"
+              >YoungMinds</a
+            >
+            – Support for young people’s mental health.
+          </li>
+          <li>
+            <a
+              href="https://www.mentalhealth.org.uk/"
+              target="_blank"
+              rel="noopener"
+              >Mental Health Foundation</a
+            >
+            – Research, advice, and resources.
+          </li>
+        </ul>
+      </div>
+    </section> -->
+
+    <section id="#further-info-and-support" class="container section">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>Further Information & Support</h2>
+          <ul>
+          <li>
+            <a href="https://www.mind.org.uk/" target="_blank" rel="noopener"
+              >Mind (UK)</a
+            >
+            – Advice and support for anyone experiencing a mental health
+            problem.
+          </li>
+          <li>
+            <a href="https://www.samaritans.org/" target="_blank" rel="noopener"
+              >Samaritans</a
+            >
+            – 24/7 support for anyone in distress.
+          </li>
+          <li>
+            <a
+              href="https://www.nhs.uk/mental-health/"
+              target="_blank"
+              rel="noopener"
+              >NHS Mental Health</a
+            >
+            – Information and resources from the National Health Service.
+          </li>
+          <li>
+            <a
+              href="https://www.youngminds.org.uk/"
+              target="_blank"
+              rel="noopener"
+              >YoungMinds</a
+            >
+            – Support for young people’s mental health.
+          </li>
+          <li>
+            <a
+              href="https://www.mentalhealth.org.uk/"
+              target="_blank"
+              rel="noopener"
+              >Mental Health Foundation</a
+            >
+            – Research, advice, and resources.
+          </li>
+        </ul>
+        </div>
+      </div>
+    </section>
+    
+    <br />
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+
+
   </body>
 </html>

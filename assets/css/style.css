@@ -5,7 +5,7 @@ body {
       
       
       
-      /* When I put this stuff in the css sheet it breaks */
+/* why do I need this?: */
 body, html {
   height: 100%;
   margin: 0;
@@ -33,19 +33,5 @@ body, html {
   transform: translate(-50%, -50%);
 }
 
-.hero-text button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 25px;
-  color: black;
-  background-color: #ddd;
-  text-align: center;
-  cursor: pointer;
-}
 
-.hero-text button:hover {
-  background-color: #555;
-  color: white;
-}
-/* When I put this stuff in the css sheet it breaks */
+
