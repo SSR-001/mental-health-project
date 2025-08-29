@@ -33,5 +33,8 @@ body, html {
   transform: translate(-50%, -50%);
 }
 
-
+#common-signs .card {
+  background-color: #FBDA8E;
+  color:#684823;
+}
 
